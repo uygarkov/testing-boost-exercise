@@ -1,4 +1,4 @@
-name: SSE CI/CD v2.0
+name: SSE CI/CD v2.0.0
 on: [push]
 
 jobs:
