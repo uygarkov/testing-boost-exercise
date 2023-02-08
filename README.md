@@ -1,4 +1,4 @@
-[![SSE CI/CD v2.0](https://github.com/uygarkov/testing-boost-exercise/blob/extend-tests/.github/workflows/testing.yml/badge.svg)](https://github.com/uygarkov/testing-boost-exercise/blob/extend-tests/.github/workflows/testing.yml)
+[![SSE CI/CD v2.0](https://github.com/uygarkov/testing-boost-exercise/actions/workflows/testing.yml/badge.svg)](https://github.com/uygarkov/testing-boost-exercise/actions/workflows/testing.yml)
 
 # SIDEMADE - Simple Dense Matrix Decomposition
 
