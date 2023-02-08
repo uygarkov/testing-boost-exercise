@@ -9,7 +9,7 @@ jobs:
       - name: "Install style checker (clang)"
         run: sudo apt update -y && sudo apt-get install -y clang-format
       - name: "Run style checker"
-        run: clang-format -i -Werror src/* tests/*
+        run: clang-format -n -Werror src/* tests/*
 
   build_package:
     runs-on: ubuntu-latest

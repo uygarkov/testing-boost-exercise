@@ -27,9 +27,9 @@ BOOST_FIXTURE_TEST_SUITE(matrixIOTests, matrixIOFixture)
 
 BOOST_AUTO_TEST_CASE(testOpenData)
 {
-    MatrixXd openData_m3 = openData(openFilename, dimension);
+    MatrixXd openData_m3 = openData(filePath, dimension);
     BOOST_CHECK_EQUAL(openData_m3, expected_m3);
-    BOOST_CHECK_THROW(openData(openFilename, wrong_dimension), std::runtime_error);
+    BOOST_CHECK_THROW(openData(filePath, wrong_dimension), std::runtime_error);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
